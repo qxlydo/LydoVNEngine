@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="LydoVNEngine/LydoVNEngine.vcxproj" Id="657ea47a-49fa-419f-8444-e8b6c82e1835" />
+</Solution>
