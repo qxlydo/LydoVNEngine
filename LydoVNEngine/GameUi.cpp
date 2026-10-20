@@ -3,7 +3,8 @@
 GameUi::GameUi(
 	const std::string& textValue,
 	const sf::Vector2f& basePosition,
-	const std::string& path)
+	const std::string& path,
+	const int& state)
 {
 	text.setPosition(basePosition);
 	lydo::LiteLogger::logLite(font, path);

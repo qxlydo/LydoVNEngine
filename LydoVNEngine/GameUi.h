@@ -10,13 +10,15 @@ private:
 	sf::Texture texture;
 	sf::Text text;
 	sf::Font font;
+	lydo::State targetState = lydo::State::GAME;
 
 public:
 	// text
 	GameUi(
 		const std::string& textValue,
 		const sf::Vector2f& basePosition,
-		const std::string& path
+		const std::string& path,
+		lydo::State state = lydo::State::GAME
 	);
 
 	// sprite
